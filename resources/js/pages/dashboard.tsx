@@ -40,12 +40,12 @@ const dashboard = ({
                     </div>
                     <div className="flex gap-2">
                         <Link href={route('lists.index')}>
-                            <Button className="bg-primary text-white shadow-lg hover:bg-primary/90">
+                            <Button>
                                 <List className="mr-2 h-4 w-4" /> View lists
                             </Button>
                         </Link>
                         <Link href={route('tasks.index')}>
-                            <Button className="bg-primary text-white shadow-lg hover:bg-primary/90">
+                            <Button>
                                 <CheckCircle className="mr-2 h-4 w-4" /> View tasks
                             </Button>
                         </Link>
